@@ -1,0 +1,37 @@
+/* .cartList{
+    display: flex;
+    flex-direction: column;
+} */
+.cart__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.cart__title{
+    font-size: 20px;
+    font-weight: 600;
+    flex: 1;
+}
+.cart__clearButton{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: orangered;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+    /* padding: 5px; */
+}
+.cart__pay{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.cart__total{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart__totalPrice{
+    color: rgb(21, 196, 21);
+}
